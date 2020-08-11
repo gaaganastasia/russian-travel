@@ -13,17 +13,23 @@
   <div class="page">
   <header class="header">
     <img src="./images/header-logo.svg" alt="Логотип" class="header__logo">
-    <div class="header__lang-links">
-      <p class="header__lang-link header__lang-link_ru">Ru</p>
-      <p class="header__lang-link header__lang-link_en">En</p>
-    </div>
+    <ul class="header__lang-links">
+      <li>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+      </li>
+      <li>
+        <a href="#" class="header__lang-link">En</a>
+      </li>
+    </ul>
   </header>
   <main>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./images/lead-polka.jpg" alt="Фото полки в плацкарте" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img src="./images/lead-polka.jpg" alt="Фото полки в плацкарте" class="lead__image">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="intro">
@@ -59,23 +65,49 @@
       </ul>
     </section>
 
-    <section class="photo-grid">
-      <img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
-      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__item">
-      <img src="./images/photo-grid-tuman.jpg" alt="Туман в поле" class="photo-grid__item">
-      <img src="./images/photo-grid-sochi.jpg" alt="Туман в лесу" class="photo-grid__item">
-      <img src="./images/photo-grid-arisa.jpg" alt="Лёд" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-elbrus.jpg" alt="Горы" class="photo-grid__item">
-      <img src="./images/photo-grid-kondratiev.jpg" alt="Знак" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
+    <section>
+      <ul class="photo-grid">
+        <li>
+          <img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-tuman.jpg" alt="Туман в поле" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-sochi.jpg" alt="Туман в лесу" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-arisa.jpg" alt="Лёд" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-elbrus.jpg" alt="Горы" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-kondratiev.jpg" alt="Знак" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item">
+        </li>
+        <li>
+          <img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
+        </li>
+      </ul>
     </section>
 
     <section class="places">
-      <div class="place">
+      <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
@@ -92,8 +124,8 @@
               Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, 
               прохладного моря.</p>
           </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
@@ -111,8 +143,8 @@
               сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. 
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
           </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
@@ -129,8 +161,8 @@
             По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. 
             И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
@@ -147,8 +179,8 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
             </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
@@ -162,16 +194,15 @@
             Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-      </div>
+      </article>
     </section>
 
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-        <div class="cover__overlay">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <div class="cover__overlay"></div>
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — 
             путешествие от столицы до Байкала на электричках.</p>
-        </div>
       </a>
     </section>
   </main>

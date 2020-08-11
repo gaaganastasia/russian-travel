@@ -1,34 +1,20 @@
-@import url('./__lang-link/header__lang-link.css');
-@import url('./__lang-link/_ru/header__lang-link_ru.css');
-@import url('./__lang-links/header__lang-links.css');
-@import url('./__logo/header__logo.css');
-
 .header {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  padding: 28px 48px 0;
+  align-items: center;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 288px;
+    padding: 16px 16px 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
-    width: 720px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .header {
-    width: 928px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header {
-    width: 1184px;
+    padding: 28px 24px 0;
   }
 }
