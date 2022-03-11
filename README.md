@@ -9,5 +9,3 @@
 * Flex-box
 * Grid Layout
 * Адаптация под разные устройства
-
-[Ссылка на сайт](https://gaaganastasia.github.io/russian-travel/)
